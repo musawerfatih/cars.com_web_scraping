@@ -7,8 +7,8 @@ it is also able to grab the data from multiple pages, have a look at the code's 
 Use 'for' loop for grabing the data from a specific range of pages
 Use 'while' loop to grab the data from all available pages.
 
-## Used Libraries
+### Used Libraries
+
 BeautifulSoup
 requests
 csv
-
