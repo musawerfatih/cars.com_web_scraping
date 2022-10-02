@@ -7,7 +7,7 @@ Use 'for' loop for grabing the data from a specific range of pages
 Use 'while' loop to grab the data from all available pages.
 
 ## Used Libraries
-BeautifulSoup\n
-requests\n
+BeautifulSoup
+requests
 csv
 
