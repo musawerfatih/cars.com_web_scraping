@@ -22,9 +22,10 @@ csv_writer = csv.writer(csv_file, dialect='excel')
 csv_writer.writerow(['NAME', 'RATINGS', 'REVIEWS', 'DEALER', 'PRICE'])
 
 
-count = 0
+count = 0           # for counting the total no of vehicles
 
-for i in range(2):
+for i in range(2):                  # use for loop for grabing the details of cars from a specific range of 'next pages'. else use while loop for all pages. and then add try except blocks and add break fun in except to terminate the program after visiting all the next pages.
+    
     for vehicle in vehicle_cards:
         count += 1
         print(count)
